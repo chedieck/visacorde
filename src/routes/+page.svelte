@@ -1,2 +1,8 @@
+
 <h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<p>Acorde</p>
+{ myChord1.getCipher() }
+{ myChord2.getCipher() }
+<script lang="ts">
+  import { myChord1, myChord2 } from '$lib/models/chords'
+</script>
